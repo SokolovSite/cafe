@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+}
+
+.countainer {
+    margin: auto
+}
+
+.header {
+    background-image: url(title-bg.jpg);
+    padding-top: 30px;
+
+}
+
+.header-line {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.menu-button {
+    color: #D27487;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.3s linear
+}
+
+.menu-button:hover {
+    color: blueviolet;
+}
+
+.soc-img {
+    padding-right: 16px;
+}
+
+.header-bg {
+    background-image: url(bg.png);
+}
+
+.down-img {
+    width: 1328px;
+    height: 644px;
+    padding: 36px 76px;
+    text-align: center;
+}
+
+.about-tex {
+    text-align: center;
+}
+
+.about-title {
+    padding-top: 220px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.about-desc {
+    padding-top: 3px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 244px;
+}
+
+.menu-desc {
+    padding-left: 56px;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Azeret Mono', monospace;
+    color: #6F6F64;
+    padding-bottom: 17px;
+    padding-top: 120px;
+}
+
+.menu-down {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #6F6F64;
+    padding-bottom: 91px;
+
+}
+
+.btn-menu {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #6F6F64;
+}
+
+.button-menu {
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid #6F6F64;
+    width: 531px;
+    text-align: center;
+}
+
+.menu-holder {
+    display: flex;
+    background-color: #E9E9E3;
+}
+
+.img-4 {
+    position: relative;
+}
+
+.img-holder {
+    margin-top: 120px;
+    margin-right: 56px;
+    margin-left: 133px;
+    margin-bottom: 120px;
+}
+
+.time-holder {
+    background-color: #AA9E54;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.loc-title {
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.loc-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 15px
+}
+
+.hours-title {
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.hourse-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 15px
+}
+
+.desc-down {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 135px;
+}
+
+.monday-title {
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.monday-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 15px
+}
+
+.img-items {
+    display: flex;
+}
+
+.img-left {
+    padding-top: 152px;
+    padding-left: 56px;
+    height: 300px;
+    width: 644px;
+    padding-bottom: 120px;
+}
+
+.left-down {
+    padding-top: 40px;
+}
+
+.img-right {
+    padding-top: 152px;
+    padding-left: 40px;
+    padding-right: 6px;
+    height: 640px;
+    width: 644px;
+    padding-bottom: 130px;
+}
+
+.down-desc {
+    background-color: #4A2B33;
+    display: flex;
+    justify-content: space-around;
+}
+
+.down-right {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 47px;
+    font-weight: 400;
+    color: #D27487;
+    padding-top: 121px;
+    margin-right: 15px;
+}
+
+.down-left{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D27487;
+    padding-top: 139px;
+    padding-bottom: 133px;
+}
+
+
+
+ПРОБНЫЙ ВАРИАНТ class="work-time" ОТДЕЛЬНО ТИТУЛЫ И ОПИСАНИЯ
+/*.time-title {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-left: 60px;
+}*/
